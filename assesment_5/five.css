@@ -8,7 +8,7 @@ body{
 
 .para{
     border: 5px solid black;
-    display: flex;
+    /* display: flex; */
     border-radius: 22px;
     padding:25px;
     color:white;
@@ -23,12 +23,13 @@ body{
 }
 .wel{
     background-color:gray;
+    display: inline;
 }
 
 .para1{
     margin-left: -220px;
     border-radius: 40px;
-    padding: 0px;
+    padding: 0px; 
 }
 
 .underline{
@@ -73,11 +74,12 @@ body{
     height: 80px;
     width: 360px;
     font-size: 28px;
-    margin: 45px;
+    margin: 45px; 
     border-radius: 22px;
     color: white;
     text-align: center;
     margin-left: 500px;
+    display: inline-block;
 
 }
 
@@ -94,6 +96,11 @@ body{
             font-size: 20px;
             background-color:lightskyblue ;
         }
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
 
 .flex{
         display: flex;
